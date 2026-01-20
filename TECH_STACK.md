@@ -3,26 +3,22 @@
 ## Frontend
 - **Framework:** Next.js 14 with TypeScript
 - **Styling:** Tailwind CSS
-- **UI Components:** Custom components with Headless UI
-- **State Management:** React Context + hooks
+- **State Management:** Zustand
 
 ## Backend
-- **API:** Next.js API routes
-- **Database:** PostgreSQL
-- **ORM:** Prisma
-- **Authentication:** NextAuth.js
+- **Runtime:** Node.js
+- **Framework:** Next.js API routes
+- **Database:** PostgreSQL with Prisma ORM
 
-## Payments
-- **Primary:** Solana Pay (native wallet integration)
-- **Fallback:** Stripe (traditional payments)
-- **Wallet Integration:** @solana/wallet-adapter
+## Payments & Crypto
+- **Solana Integration:** @solana/web3.js, @solana/wallet-adapter
+- **Payment Processing:** Solana Pay for crypto, Stripe for traditional payments
 
 ## Deployment
 - **Hosting:** Vercel
-- **Database:** Railway or Supabase
-- **Domain:** Custom domain with SSL
+- **Database:** Supabase PostgreSQL
 
-## Development Tools
-- **Package Manager:** npm
-- **Code Quality:** ESLint + Prettier
-- **Type Checking:** TypeScript strict mode
+## Key Libraries
+- **Wallet Connection:** Solana Wallet Adapter
+- **Image Optimization:** Next.js built-in
+- **Forms:** React Hook Form + Zod validation
