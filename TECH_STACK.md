@@ -1,27 +1,29 @@
-# Technology Stack
+# Tech Stack - 8bit-tees
 
 ## Frontend
-- **Framework:** Next.js 14 (React-based, full-stack capabilities)
-- **Styling:** Tailwind CSS (utility-first, responsive design)
-- **UI Components:** Headless UI (accessible, unstyled components)
+- **Framework:** Next.js 14 (React)
+- **Styling:** Tailwind CSS
+- **UI Components:** Custom components with 8-bit aesthetic
+- **State Management:** Zustand (lightweight for shopping cart)
 
 ## Backend
-- **Runtime:** Node.js (integrated with Next.js API routes)
+- **Runtime:** Node.js
+- **Framework:** Next.js API routes
 - **Database:** PostgreSQL with Prisma ORM
 - **Authentication:** NextAuth.js
 
-## Payments & Crypto Integration
-- **Solana Integration:** @solana/web3.js, @solana/wallet-adapter
-- **Payment Processing:** Solana Pay for crypto payments
-- **Fallback:** Stripe for traditional card payments
+## Payments & Crypto
+- **Solana Integration:** @solana/wallet-adapter
+- **Payment Processing:** Solana Pay
+- **Wallet Support:** Phantom, Solflare, other major Solana wallets
 
-## Deployment & Infrastructure
-- **Hosting:** Vercel (seamless Next.js deployment)
-- **Database:** Railway or Supabase (PostgreSQL hosting)
-- **Image Storage:** Vercel Blob or Cloudinary
+## Deployment
+- **Hosting:** Vercel (seamless Next.js integration)
+- **Database:** Railway or Supabase PostgreSQL
+- **Domain:** Custom domain TBD
 
 ## Development Tools
 - **Language:** TypeScript
-- **Package Manager:** pnpm
-- **Linting:** ESLint + Prettier
-- **Version Control:** Git with conventional commits
+- **Package Manager:** npm
+- **Code Quality:** ESLint + Prettier
+- **Version Control:** Git with GitHub
