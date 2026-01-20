@@ -1,24 +1,27 @@
-# Tech Stack
+# Technology Stack
 
 ## Frontend
-- **Framework:** Next.js 14 with TypeScript
-- **Styling:** Tailwind CSS
-- **State Management:** Zustand
+- **Framework:** Next.js 14 (React-based, full-stack capabilities)
+- **Styling:** Tailwind CSS (utility-first, responsive design)
+- **UI Components:** Headless UI (accessible, unstyled components)
 
 ## Backend
-- **Runtime:** Node.js
-- **Framework:** Next.js API routes
+- **Runtime:** Node.js (integrated with Next.js API routes)
 - **Database:** PostgreSQL with Prisma ORM
+- **Authentication:** NextAuth.js
 
-## Payments & Crypto
+## Payments & Crypto Integration
 - **Solana Integration:** @solana/web3.js, @solana/wallet-adapter
-- **Payment Processing:** Solana Pay for crypto, Stripe for traditional payments
+- **Payment Processing:** Solana Pay for crypto payments
+- **Fallback:** Stripe for traditional card payments
 
-## Deployment
-- **Hosting:** Vercel
-- **Database:** Supabase PostgreSQL
+## Deployment & Infrastructure
+- **Hosting:** Vercel (seamless Next.js deployment)
+- **Database:** Railway or Supabase (PostgreSQL hosting)
+- **Image Storage:** Vercel Blob or Cloudinary
 
-## Key Libraries
-- **Wallet Connection:** Solana Wallet Adapter
-- **Image Optimization:** Next.js built-in
-- **Forms:** React Hook Form + Zod validation
+## Development Tools
+- **Language:** TypeScript
+- **Package Manager:** pnpm
+- **Linting:** ESLint + Prettier
+- **Version Control:** Git with conventional commits
