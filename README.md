@@ -1,15 +1,20 @@
-# 8bit Tees
+# 8bit-tees
 
 A custom web app for selling retro 8-bit themed t-shirts to the Solana community.
 
-## Target Audience
-Solana degens - crypto enthusiasts who appreciate retro 8-bit aesthetics and have disposable income for premium apparel.
+## Target Market
+- Solana degens and crypto enthusiasts
+- Retro gaming culture enthusiasts
+- Web3 natives who appreciate pixel art aesthetics
 
 ## Core Features
 - Product catalog showcasing 8-bit t-shirt designs
-- Shopping cart functionality
-- Checkout system
+- Shopping cart and checkout system
 - Solana wallet integration for payments
+- Clean, retro-inspired UI/UX
 
-## Vision
-Simple, clean e-commerce experience that speaks to the Solana community's love of both retro gaming culture and crypto innovation.
+## Tech Stack
+Coming soon...
+
+## Getting Started
+Coming soon...
